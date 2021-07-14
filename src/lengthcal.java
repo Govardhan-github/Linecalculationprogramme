@@ -27,7 +27,7 @@ public class lengthcal {
 				System.out.println("LENGTH OF LINE1 "+length1);
 				System.out.println("LENGTH OF LINE2 "+length2);
 				
-				
+		
 				if (length1 == length2)
 					System.out.println("Two lines are equal");
 				else if (length1 > length2)
