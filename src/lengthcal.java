@@ -30,9 +30,13 @@ public class lengthcal {
 				
 				if (length1 == length2)
 					System.out.println("Two lines are equal");
+				else if (length1 > length2)
+					System.out.println("The LINE1 is greaterthan LINE2");
+				else if (length1 < length2)
+					System.out.println("The LINE1 is lessthan LINE2");
 				else
-					System.out.println("Two lines are not equal");
-		
+					System.out.println("The two lines are not equal");
+	
 	}	
 
 }
